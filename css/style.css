@@ -1,6 +1,6 @@
 * {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
+    font-family: sans-serif
+} 
 
 body {
     background-color: rgb(229, 234, 234);
@@ -11,7 +11,7 @@ header {
     height: 150px;
     align-items: center;
     background-color: gray;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: sans-serif
 }
 
 header h1 {
@@ -20,6 +20,15 @@ header h1 {
     margin-left: 50px;
     font-size: 50px;
     align-items: start;
+}
+
+form {
+    color: aquamarine;
+    font-size: 40px;
+    border-right: 6px solid black;
+    min-height: 85%;
+    padding-right: 35px;
+    text-align: right;
 }
 
 nav a {
@@ -52,10 +61,11 @@ main section {
     max-width: 80vw;
     align-items: center;
     border-width: 3px;
-    border-color: brown;
+    border-color: aquamarine;
     border-style: solid;
     padding: 30px;
     background-color: darkgray;
+
 
 }
 form {
@@ -69,11 +79,27 @@ form {
 #biotext {
     margin: 5 rem;
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border-width: 3px;
+    padding-top: 20px;
     
 }
 
 #second-section {
     min-width: 80vw;
+    min-height: 200px;
+    justify-content: space-between;
+}
+
+#Work-section {
+    font-size: 40px;
+    border-right: 6px solid black;
+    min-height: 85%;
+    padding-right: 35px;
+    text-align: right;
+    min-width: 78vw;
     min-height: 200px;
     justify-content: space-between;
 }
@@ -84,6 +110,14 @@ form {
     width: 200px;
     border-width: 3px;
     padding-top: 10px;
+}
+
+#Email-section {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border-width: 3px;
+    padding-top: 20px;
 }
 
 #download-btn {
@@ -97,7 +131,7 @@ form {
 
 }
 
-#email-btn {
+#Email-btn {
     padding: 4px;
     background-color: aquamarine;
     border: 3px;
@@ -105,7 +139,12 @@ form {
     border-style: solid;
     text-decoration: none;
     color: black;
+}
 
+#Email-btn:hover {
+    background-color: purple;
+color: white;
+box-shadow: 0 12PX 16PX 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 
@@ -128,4 +167,8 @@ footer {
 
 #about-me {
     padding-left: 20px;
+}
+
+#Github {
+    
 }
