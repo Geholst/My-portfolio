@@ -54,13 +54,15 @@ main section {
     border-width: 3px;
     border-color: brown;
     border-style: solid;
-    padding: 25px;
+    padding: 30px;
+    background-color: darkgray;
 
 }
 form {
     display: flex;
     flex-direction: column;
     margin: 5px;
+    padding-bottom: 50px;
 
 }
 
