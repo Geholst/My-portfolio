@@ -46,6 +46,12 @@ nav a {
 
 }
 
+nav a:hover {
+    background-color: rgb(185, 134, 173);
+color: white;
+box-shadow: 0 12PX 16PX 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 img {
     display: flex;
     width: 200px;
@@ -97,18 +103,30 @@ form {
     justify-content: space-between;
 }
 
+
 #Work-section {
-    font-size: 40px;
-    border-right: 6px solid black;
-    min-height: 85%;
-    padding-right: 35px;
-    text-align: right;
-    min-width: 78vw;
+    min-width: 80vw;
     min-height: 200px;
     justify-content: space-between;
 }
 
+#prework {
+    display:flex;
+    flex-direction: column;
+    width: 200px;
+    border-width: 3px;
+    padding-top: 10px;
+}
+
 #resume-section {
+    display:flex;
+    flex-direction: column;
+    width: 200px;
+    border-width: 3px;
+    padding-top: 10px;
+}
+
+#Github-section {
     display:flex;
     flex-direction: column;
     width: 200px;
@@ -135,6 +153,16 @@ form {
 
 }
 
+#prework-btn {
+    padding: 4px;
+    background-color: aquamarine;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    text-decoration: none;
+    color: black;
+}
+
 #Email-btn {
     padding: 4px;
     background-color: aquamarine;
@@ -145,8 +173,14 @@ form {
     color: black;
 }
 
-#Email-btn:hover {
+#Github-btn:hover {
     background-color: purple;
+    color: white;
+    box-shadow: 0 12PX 16PX 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#Email-btn:hover {
+background-color: purple;
 color: white;
 box-shadow: 0 12PX 16PX 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -173,6 +207,13 @@ footer {
     padding-left: 20px;
 }
 
-#Github {
-    
+
+#Github-btn {
+   padding: 4px;
+    background-color: aquamarine;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    text-decoration: none;
+    color: black;
 }
