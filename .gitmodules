@@ -1,3 +1,7 @@
 [submodule "prework-study-guide"]
 	path = prework-study-guide
-	url = https://github.com/Geholst/prework-study-guide
+	url = git://github.com/Geholst/prework-study-guide
+
+[submodule "Geholst"]
+	path = Geholst
+	url = git://github.com/Geholst
