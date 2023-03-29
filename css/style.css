@@ -68,6 +68,7 @@ align-items: center;
 main section {
     margin: 30 px 0 px;
     display: flex;
+    justify-content: space-between;
     max-width: 80vw;
     align-items: center;
     border-width: 3px;
@@ -75,6 +76,7 @@ main section {
     border-style: solid;
     padding: 30px;
     background-color: darkgray;
+    
 
 
 }
@@ -161,6 +163,12 @@ form {
     border-style: solid;
     text-decoration: none;
     color: black;
+}
+
+#prework-btn:hover {
+    background-color: purple;
+    color: white;
+    box-shadow: 0 12PX 16PX 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 #Email-btn {
